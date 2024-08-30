@@ -1,3 +1,4 @@
+//测试专用文件
 #include<stdio.h>
 
 int main()
@@ -6,5 +7,4 @@ int main()
     printf("victory\n");
     return 0;
 }
-//删除了最后一行
 

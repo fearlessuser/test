@@ -6,4 +6,3 @@ int main()
     printf("victory\n");
     return 0;
 }
-//检查早github中对代码进行的修改，是否已经更新到vscode中去。

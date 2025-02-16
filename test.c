@@ -29,7 +29,7 @@ int main()
 	printf("%s\n",timedata);
 	char *timedata1 = asctime(&time_st);
 	printf("%s\n",timedata1);
-	printf("我又回来啦，VSCODE大人\n");
+	printf("我又回来啦,VSCODE大人\n");
 	printf("hehe");
 }
 

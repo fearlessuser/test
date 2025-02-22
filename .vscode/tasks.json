@@ -8,8 +8,8 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "-std=c99",
-                // "${file}",
-                "*.c",
+                "${file}",
+                // "*.c",
                 "-o",
                 // "${fileDirname}\\${fileBasenameNoExtension}.exe"
                  "${fileDirname}\\a.exe"

@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include<string.h>
 #include<time.h>
+#include<limits.h>
 void swap(int* a, int* b)
 {
 	int tmp;
@@ -26,6 +27,10 @@ void graphtest(int** graph,int index,int n)
 		}
 	}
 }
+void intmax_print(void)
+{
+    printf("%d\n",_INTEGRAL_MAX_BITS);
+}
 time_t time_cnt;
 struct tm time_st;
 int main()
@@ -34,9 +39,11 @@ int main()
 	// snprintf(str,sizeof(str),"我爱你%d遍,宝贝",1000);
 	// printf("%d\n",strlen(str));
 	// printf(str);
-	char*p = 'a';
+	char*p = "a";
 	printf("%d\n",sizeof(p));
 	printf("%d",recur(100));
+	printf("%d\n",INT_MAX);
+	intmax_print();
 	// quadraticRecur(10);
 }
 
